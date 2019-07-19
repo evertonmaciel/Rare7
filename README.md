@@ -12,7 +12,7 @@ Carlos Eduardo Arlé Ribeiro de Souza
 Data includes a dataset already published. This data was collected from papers to use as an example and to test the package.
 
 # Install Rare7
-install_github("evertonmaciel")
+install_github("evertonmaciel/Rare7")
 
 # Usage
 The main function is rabiData, basically, this quantifies higher latitudes to quantify the proportion of distribution of a species; maximum abundance of a species and habitat number where species occur.

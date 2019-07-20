@@ -17,10 +17,12 @@ install_github("evertonmaciel/Rare7")
 # Usage
 library(Rare7)
 
-rareData() - 
+rareData()
+
 The main function is rareData, basically, this quantifies higher latitudes to quantify the proportion of distribution of a species; maximum abundance of a species and habitat number where species occur.
 
-rarityForms() - 
+rarityForms()
+
 The second function uses the output provided by the first function. Then this function classifies the forms of rarity.
 
 

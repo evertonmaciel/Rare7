@@ -15,6 +15,7 @@ Data includes a dataset already published. This data was collected from papers t
 install_github("evertonmaciel/Rare7")
 
 # Usage
+library(Rare7)
 rareData()
 The main function is rareData, basically, this quantifies higher latitudes to quantify the proportion of distribution of a species; maximum abundance of a species and habitat number where species occur.
 

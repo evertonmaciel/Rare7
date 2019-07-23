@@ -2,8 +2,10 @@ Package: Rare7
 Type: Package
 Title: Classifies species in seven forms of the rarity of Rabinowitz
 Version: 0.1.0
-Author: c(person("Arle Ribeiro de Souza", "Carlos Eduardo", , "eduardo.arle@idiv.de",c("aut", "cre")),
-person("Alves Maciel", "Everton", , "everton.alves-maciel@ufz.de", c("aut")))
+Author: c(
+person("Arle Ribeiro de Souza", "Carlos Eduardo", , "eduardo.arle@idiv.de",c("aut", "cre")),
+person("Alves Maciel", "Everton", , "everton.alves-maciel@ufz.de", c("aut"))
+)
 Maintainer:
 Description: The rarity forms are classified according to three parameters, geographic range, abundance and number of habitat.
 License: GNU General Public License v3.0

@@ -54,7 +54,6 @@ Accepted_name   Accepted_author      Accepted_family    CodSite         lat     
  Erythroxylum suberosum A.St.-Hil.:  8   3rd Qu.: 18.00   cerrado sensu strict:341  
  Aspidosperma tomentosum Mart.    :  7   Max.   :406.00   murundus            : 25  
 
-
 #How to cite
 If you publish your work based on results from Rare7 (R package), please make reference to Arle and Maciel (2019) and Rabinowitz (1981) given in the following list.
 

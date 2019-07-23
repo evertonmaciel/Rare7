@@ -6,13 +6,13 @@ The Rabinowitz’s method uses three parameters (geographic range, habitat speci
 
 # Developer
 Carlos Eduardo Arlé Ribeiro de Souza
-PHD study, German Centre for Integrative Biodiversity Research - iDiv, Germany
-contact <eduardo.arle@idiv.de>
+PhD study, German Centre for Integrative Biodiversity Research - iDiv, Germany.
+contact: <eduardo.arle@idiv.de>
 
 Everton Alves Maciel
-PhD study, University of Campinas - UNICAMP, Brazil
-PhD-SWE study, Helmholtz Center Environmental Research - UFZ, Germany
-contact <everttmacil@gmail.com> <everton.alves-maciel@ufz.de>
+PhD study, University of Campinas - UNICAMP, Brazil.
+PhD-SWE study, Helmholtz Center Environmental Research - UFZ, Germany.
+contact: <everttmacil@gmail.com>, <everton.alves-maciel@ufz.de>
 
 # Data
 Data includes a dataset already published. This data was collected from papers to use as an example and to test the package.

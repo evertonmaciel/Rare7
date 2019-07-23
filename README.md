@@ -12,7 +12,7 @@ contact <eduardo.arle@idiv.de>
 Everton Alves Maciel
 PhD study, University of Campinas - UNICAMP, Brazil
 PhD-SWE study, Helmholtz Center Environmental Research - UFZ, Germany
-contact <everttmacil@gmail.com> 
+contact <everttmacil@gmail.com> <everton.alves-maciel@ufz.de>
 
 # Data
 Data includes a dataset already published. This data was collected from papers to use as an example and to test the package.

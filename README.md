@@ -14,7 +14,7 @@ PhD study, University of Campinas - UNICAMP, Brazil. and
 PhD-SWE study, Helmholtz Center Environmental Research - UFZ, Germany.
 contact: <everttmaciel@gmail.com>, <everton.alves-maciel@ufz.de>
 
-## install Rare7 from github
+# Install Rare7 from github
 
 install.packages('devtools')
 
@@ -22,7 +22,7 @@ library(devtools)
 
 install_github('evertonmaciel/Rare7')
 
-## import packages
+# Import packages
 library(Rare7)
 
 # Usage
@@ -38,7 +38,7 @@ The second function uses the output provided by the first function. Then this fu
 # Data format/information
 
 The data input to Rare is a data frame that contains the following structure.
-
+#
 'data.frame':	5 obs. of  5 variables:
 
  $ specie  : Factor w/ 5 levels "sp.1","sp.2",..: 1 2 3 4 5

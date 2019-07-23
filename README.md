@@ -37,11 +37,14 @@ The second function uses the output provided by the first function. Then this fu
 
 # Data format/information
 
-The data input to Rare7 is a data frame that contains numeric and characters vectors.
+The data input to Rare7 is a data frame that contains the following.
 
-Species                         lat                 long          NumIndiv        habitat
-
-Annona crassiflora Mart.        -14.7777          -45.8555          2              savanna 
+'data.frame':	5 obs. of  5 variables:
+ $ specie  : Factor w/ 5 levels "sp.1","sp.2",..: 1 2 3 4 5
+ $ lat     : num  -4.7 -14.7 -14.7 -24.7 -24.7
+ $ long    : num  -42.9 -39.9 -45.9 -45.1 -45.9
+ $ NumIndiv: int  2 1 3 1 32
+ $ habitat : Factor w/ 2 levels "forest","savanna": 2 1 2 1 2
 
 # How to cite
 

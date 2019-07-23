@@ -1,12 +1,17 @@
 # Rare7
-Classifies species in seven forms of the rarity of Rabinowitz
+Classifies species into Rabinowitz's rare forms
 
 # Overview
 The Rabinowitz’s method uses three parameters (geographic range, habitat specificity, and population size) to classify rare species. Geographic range is a parameter of regional scale, while the other two are local. Their combination results in seven form of rarity, and in the identification of common species.
 
 # Developer
-Carlos Eduardo Arlé Ribeiro de Souza and
+Carlos Eduardo Arlé Ribeiro de Souza
+PHD study, German Centre for Integrative Biodiversity Research - iDiv, Germany
+contact <eduardo.arle@idiv.de
 Everton Alves Maciel
+PhD study, University of Campinas - UNICAMP, Brazil
+PhD-SWE study, Helmholtz Center Environmental Research - UFZ, Germany
+contact <everttmacil@gmail.com> 
 
 # Data
 Data includes a dataset already published. This data was collected from papers to use as an example and to test the package.

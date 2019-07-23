@@ -14,14 +14,16 @@ PhD study, University of Campinas - UNICAMP, Brazil. and
 PhD-SWE study, Helmholtz Center Environmental Research - UFZ, Germany.
 contact: <everttmaciel@gmail.com>, <everton.alves-maciel@ufz.de>
 
-# Data
-Data includes a dataset already published. This data was collected from papers to use as an example and to test the package.
+## install Rare7 from github
 
-# Install Rare7
-install_github("evertonmaciel/Rare7")
+install.packages('devtools')
+library(devtools)
+install_github('evertonmaciel/Rare7')
+
+## import packages
+library(Rare7)
 
 # Usage
-library(Rare7)
 
 rareData ( )
 
@@ -30,6 +32,10 @@ The main function is rareData, basically, this quantifies higher latitudes to qu
 rarityForms ( )
 
 The second function uses the output provided by the first function. Then this function classifies the forms of rarity.
+
+#Data format/information
+Three types of data are supported
+
 
 #How to cite
 If you publish your work based on results from Rare7 (R package), please make reference to Arle and Maciel (2019) and Rabinowitz (1981) given in the following list.

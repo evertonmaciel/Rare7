@@ -10,7 +10,7 @@ PhD study, German Centre for Integrative Biodiversity Research - iDiv, Germany.
 contact: <eduardo.arle@idiv.de>
 
 Everton Alves Maciel
-PhD study, University of Campinas - UNICAMP, Brazil.
+PhD study, University of Campinas - UNICAMP, Brazil. and
 PhD-SWE study, Helmholtz Center Environmental Research - UFZ, Germany.
 contact: <everttmaciel@gmail.com>, <everton.alves-maciel@ufz.de>
 

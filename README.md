@@ -17,7 +17,9 @@ contact: <everttmaciel@gmail.com>, <everton.alves-maciel@ufz.de>
 ## install Rare7 from github
 
 install.packages('devtools')
+
 library(devtools)
+
 install_github('evertonmaciel/Rare7')
 
 ## import packages
@@ -35,6 +37,22 @@ The second function uses the output provided by the first function. Then this fu
 
 #Data format/information
 Three types of data are supported
+
+Accepted_name   Accepted_author      Accepted_family    CodSite         lat              long       
+                       : 58             :121    Fabaceae     : 90    MT01   :107   Min.   :-22.60   Min.   :-62.03  
+ Caryocar brasiliense  :  9   Mart.     : 47                 : 58    SP02   : 73   1st Qu.:-19.33   1st Qu.:-56.08  
+ Erythroxylum suberosum:  8   A.St.-Hil.: 24    Myrtaceae    : 45    MG11   : 62   Median :-15.90   Median :-47.79  
+ Pouteria ramiflora    :  8   Benth.    : 18    Malpighiaceae: 31    RO02   : 58   Mean   :-17.39   Mean   :-50.06  
+ Qualea grandiflora    :  8   A.Juss.   : 17    Vochysiaceae : 30    MG12   : 56   3rd Qu.:-15.77   3rd Qu.:-45.88  
+ Aspidosperma          :  7   Aubl.     : 14    Rubiaceae    : 25    DF01   : 54   Max.   :-12.29   Max.   :-44.35  
+ (Other)               :492   (Other)   :349    (Other)      :311    (Other):180                                    
+                               specie       NumIndiv                      habitat   
+ Caryocar brasiliense Cambess.    :  9   Min.   :  1.00   0                   : 58  
+ Pouteria ramiflora (Mart.) Radlk.:  9   1st Qu.:  1.00   cerradão            : 62  
+ Qualea grandiflora Mart.         :  9   Median :  5.00   Cerrado denso       : 53  
+ Byrsonima coccolobifolia Kunth   :  8   Mean   : 19.15   Cerrado rupestre    : 51  
+ Erythroxylum suberosum A.St.-Hil.:  8   3rd Qu.: 18.00   cerrado sensu strict:341  
+ Aspidosperma tomentosum Mart.    :  7   Max.   :406.00   murundus            : 25  
 
 
 #How to cite

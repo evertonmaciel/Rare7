@@ -2,9 +2,9 @@ Package: Rare7
 Version: 0.1.0
 Date: 2015-01-01
 Title: Classifies seven forms of the rarity of Rabinowitz
-Authors@R: c(person("Arle-Ribeiro_Sousa", "Carloso", role = c("aut", "cre"),
+Authors@R: c(person("Arle-Ribeiro_Sousa", "Carlos Eduardo", role = c("aut", "cre"),
                      email = "eduardo.arle@idiv.de"),
-              person("Maciel", "Everton", role = "aut"),
+              person("Maciel", "Everton", role = "aut",
                      email = "everton.alves-maciel@ufz.de"))
 Author: Carlos E. Arle-Ribeiro-Sousa [aut, cre],
   Everton Maciel [aut],

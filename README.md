@@ -29,9 +29,10 @@ The second function uses the output provided by the first function. Then this fu
 
 Rabinowitz, D. (1981). Seven forms of rarity. In ‘The biological aspects of rare plant conservation’.(Ed. H Synge) pp. 205–217.
 
+Rabinowitz, D., Rapp, J. K., & Dixon, P. M. (1984). Competitive abilities of sparse grass species: means of persistence or cause of abundance. Ecology, 65(4), 1144-1154.
+
 Rabinowitz, D. (1986). Seven forms of rarity and their frequency in the flora of the British Isles. Conservation biology: the science of scarcity and diversity.
 
-Rabinowitz, D., Rapp, J. K., & Dixon, P. M. (1984). Competitive abilities of sparse grass species: means of persistence or cause of abundance. Ecology, 65(4), 1144-1154.
 
 
 

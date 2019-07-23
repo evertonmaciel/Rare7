@@ -1,5 +1,5 @@
 # Rare7
-Classifies species into seven forms of the rarity of Rabinowitz
+Classifies species into seven forms of rarity of Rabinowitz
 
 # Overview
 The Rabinowitz’s method uses three parameters (geographic range, habitat specificity, and population size) to classify rare species. Geographic range is a parameter of regional scale, while the other two are local. Their combination results in seven form of rarity, and in the identification of common species.
@@ -35,12 +35,18 @@ rarityForms ( )
 
 The second function uses the output provided by the first function. Then this function classifies the forms of rarity.
 
-#Data format/information
-Three types of data are supported
+# Data format/information
 
+The data input to Rare7 is a data frame that contains numeric and characters vectors.
 
-#How to cite
-If you publish your work based on results from Rare7 (R package), please make reference to Arle and Maciel (2019) and Rabinowitz (1981) given in the following list.
+Species                         lat                 long          NumIndiv        habitat
+
+Annona crassiflora Mart.        -14.7777          -45.8555          2              savanna 
+
+# How to cite
+
+If you publish somithing based on results from Rare7 (R package), please make reference to Arle and Maciel (2019) and Rabinowitz (1981) given in the following list.
+
 
 # The main reference
 Rabinowitz, D. (1981). Seven forms of rarity. In ‘The biological aspects of rare plant conservation’.(Ed. H Synge) pp. 205–217.

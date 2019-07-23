@@ -37,7 +37,7 @@ The second function uses the output provided by the first function. Then this fu
 
 # Data format/information
 
-The data input to Rare7 is a data frame that contains the following.
+The data input to Rare is a data frame that contains the following structure.
 
 'data.frame':	5 obs. of  5 variables:
 

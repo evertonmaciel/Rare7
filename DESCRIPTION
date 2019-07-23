@@ -6,7 +6,7 @@ Author:c(
   person("Arle Ribeiro de Souza", "Carlos Eduardo", , "eduardo.arle@idiv.de",c("aut", "cre")),
   person("Alves Maciel", "Everton", , "everton.alves-maciel@ufz.de", c("aut"))
   )
-Maintainer:
+Maintainer:Carlos Eduardo Arle
 Description: The rarity forms are classified according to three parameters, geographic range, abundance and number of habitat.
 License: GNU General Public License v3.0
 Encoding: UTF-8

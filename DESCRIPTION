@@ -2,13 +2,13 @@ Package: Rare7
 Version: 0.1.0
 Date: 2015-01-01
 Title: Seven forms of the rarity of Rabinowitz
-Authors@R: c(person("Arle-Ribeiro_Sousa", "Carlos Eduardo", role = c("aut", "cre"),
+Authors@R: c(person("Arlé", "Eduardo", role = c("aut", "cre"),
                      email = "eduardo.arle@idiv.de"),
               person("Maciel", "Everton", role = "aut",
                      email = "everton.alves-maciel@ufz.de", "everttonmaciel@gmail.com"))
-Author: Carlos E. Arle-Ribeiro-Sousa [aut, cre],
+Author: Eduardo Arlé [aut, cre],
   Everton Maciel [aut],
-Maintainer: Eduardo Arle <eduardo.arle@idiv.de>
+Maintainer: Eduardo Arlé <eduardo.arle@idiv.de>
 Depends: R (>= 3.1.0)
 Description: Classifies species of the communities in seven forms of the rarity of Rabinowitz
 License: GPL (>= 2)

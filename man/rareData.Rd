@@ -2,7 +2,7 @@
 % Please edit documentation in R/rareData.R
 \name{rareData}
 \alias{rareData}
-\title{Table data colection}
+\title{Table data collection}
 \usage{
 rareData(table)
 }

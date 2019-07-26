@@ -10,6 +10,7 @@
 #' @export
 rarePlot <- function (table,rarity,locality) 
 {
+  table$CodSite <- as.character(table$CodSite)
   loc <- unique(as.data.table(table), by = "CodSite")
   sps_loc <- list()
   for (i in 1:nrow(loc)) {

@@ -23,7 +23,7 @@ rarePlot <- function (table,rarity,locality)
       sps_loc_rarity[[i]][j] <- as.character(rarity$Forma[which(rarity$Species == 
                                                                   sps_loc[[i]][j])])
     }
-    names(sps_loc_rarity)[[i]] <- as.character(loc$CodSite[i])
+    names(sps_loc_rarity)[[i]] <- as.character(loc[i])
   }
   loc_tables <- lapply(lapply(sps_loc_rarity, table), data.frame)
   pie(loc_tables[[which(names(loc_tables) == locality)]]$Freq, 

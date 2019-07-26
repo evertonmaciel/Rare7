@@ -25,5 +25,5 @@ rarePlot <- function (table,rarity,locality)
     names(sps_loc_rarity)[[i]] <- as.character(loc$CodSite[i])
   }
   loc_tables <- lapply(lapply(sps_loc_rarity, table), data.frame)
-  return(loc_tables)
+  return(loc_tables) #test
 }

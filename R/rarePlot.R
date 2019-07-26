@@ -20,7 +20,7 @@ rarePlot <- function (table,rarity,locality)
   for (i in 1:length(sps_loc)) {
     sps_loc_rarity[[i]] <- character()
     for (j in 1:length(sps_loc[[i]])) {
-      sps_loc_rarity[[i]][j] <- as.character(rarity$Forma[which(rarity$Species == 
+      sps_loc_rarity[[i]][j] <- as.character(rarity$Form[which(rarity$Species == 
                                                                   sps_loc[[i]][j])])
     }
     names(sps_loc_rarity)[[i]] <- as.character(loc[i])

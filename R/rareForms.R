@@ -1,6 +1,6 @@
-#' seven forms of rarity
+#' Seven forms of rarity
 #'
-#' classify the seven forms of rarity according to geographic range, abundance and habitat
+#' classifies the seven forms of rarity according to geographic range, abundance and habitat
 #'
 #' @param  use output provide by function rabiData
 #' @return The output is another table organised to be used in the function rarityForms

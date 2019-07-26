@@ -10,20 +10,5 @@
 rarePlot <- function (table,rarity,locality) 
 {
   loc <- unique(as.data.table(table), by = "CodSite")
-  sps_loc <- list()
-  for (i in 1:nrow(loc)) {
-    sps_loc[[i]] <- table$specie[which(table$CodSite == loc$CodSite[i])]
-    names(sps_loc)[[i]] <- as.character(loc$CodSite[i])
-  }
-  sps_loc_rarity <- list()
-  for (i in 1:length(sps_loc)) {
-    sps_loc_rarity[[i]] <- character()
-    for (j in 1:length(sps_loc[[i]])) {
-      sps_loc_rarity[[i]][j] <- as.character(rarity$Forma[which(rarity$Species == 
-                                                                  sps_loc[[i]][j])])
-    }
-    names(sps_loc_rarity)[[i]] <- as.character(loc$CodSite[i])
-  }
-  loc_tables <- lapply(lapply(sps_loc_rarity, table), data.frame)
-  return(loc_tables) #test
+  return(loc) #test
 }

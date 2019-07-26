@@ -2,7 +2,7 @@
 #'
 #' plots a pie chart showing the shares of rarity forms in a specif locality
 #'
-#' @importFrom data.table unique as.data.table
+#' @import data.table
 #' @param  table containing the information of species occurrence per locality
 #' @param  rarity the output provided by the function rareForms
 #' @param  locality character, name of the target locality

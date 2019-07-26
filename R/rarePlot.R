@@ -2,7 +2,7 @@
 #'
 #' plots a pie chart showing the shares of rarity forms in a specif locality
 #'
-#' @importFrom data.table unique.data.table as.data.table
+#' @importFrom data.table unique as.data.table
 #' @param  table containing the information of species occurrence per locality
 #' @param  rarity the output provided by the function rareForms
 #' @param  locality character, name of the target locality
@@ -11,7 +11,7 @@
 rarePlot <- function (table,rarity,locality) 
 {
   table$CodSite <- as.character(table$CodSite)
-  loc <- unique.data.table(as.data.table(table), by = "CodSite")
+  loc <- data.table::unique(data.table::as.data.table(table), by = "CodSite")
   return(loc)
 }
 ?unique

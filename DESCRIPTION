@@ -1,6 +1,6 @@
 Package: Rare7
 Version: 0.1.0
-Date: 2015-01-01
+Date: 2019-01-17
 Title: Seven forms of the rarity of Rabinowitz
 Authors@R: c(person("Arlé", "Eduardo", role = c("aut", "cre"),
                      email = "eduardo.arle@idiv.de"),
@@ -13,3 +13,4 @@ Depends: R (>= 3.1.0)
 Description: Classifies species of the communities in seven forms of the rarity of Rabinowitz
 License: GPL (>= 2)
 URL: https://github.com/evertonmaciel/Rare7
+RoxygenNote: 7.0.2

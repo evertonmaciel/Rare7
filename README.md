@@ -6,13 +6,12 @@ The Rabinowitz’s method uses three parameters (geographic range, habitat speci
 
 # Developer
 Eduardo Arlé
-PhD student, Macroecology and Society, German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig
-contact: <eduardo.arle@idiv.de>
+PhD student, Macroecology and Society, German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig.
 
 Everton Alves Maciel
 PhD student, University of Campinas - UNICAMP, Brazil. and
 PhD-SWE student, Helmholtz Centre Environmental Research - UFZ, Germany.
-contact: <everttmaciel@gmail.com>, <everton.alves-maciel@ufz.de>
+contact: <everttmaciel@gmail.com>
 
 # Install Rare7 from github
 
@@ -27,11 +26,11 @@ library(Rare7)
 
 # Usage
 
-rareData ( )
+rareData()
 
 The main function is rareData, basically, this quantifies higher latitudes to quantify the proportion of distribution of a species; maximum abundance of a species and habitat number where species occur.
 
-rarityForms ( )
+rarityForms()
 
 The second function uses the output provided by the first function. Then this function classifies the forms of rarity.
 

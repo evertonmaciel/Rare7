@@ -2,7 +2,7 @@
 #'
 #' classifies the seven forms of rarity according to geographic range, abundance and habitat
 #'
-#' @param use output provide by function rabiData
+#' @param data 2B documented => is this correct? output provide by function rabiData
 #' @param percentage 2B documented.
 #' @param min_abund 2B documented.
 #' @param habitats 2B documented.

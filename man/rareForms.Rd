@@ -7,13 +7,13 @@
 rareForms(data, percentage = 0.1, min_abund = 2, habitats = 1)
 }
 \arguments{
+\item{data}{2B documented => is this correct? output provide by function rabiData}
+
 \item{percentage}{2B documented.}
 
 \item{min_abund}{2B documented.}
 
 \item{habitats}{2B documented.}
-
-\item{use}{output provide by function rabiData}
 }
 \value{
 The output is another table organised to be used in the function rarityForms

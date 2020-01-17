@@ -17,5 +17,5 @@ rarePlot(table, rarity, locality)
 The function plots a pie chart showing the proportion of each rarity form for a target locality
 }
 \description{
-plots a pie chart showing the shares of rarity forms in a specif locality
+plots a pie chart showing the shares of rarity forms in a specific locality.
 }

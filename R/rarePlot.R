@@ -6,6 +6,8 @@
 #' @param rarity the output provided by the function rareForms
 #' @param locality character, name of the target locality
 #' @return The function plots a pie chart showing the proportion of each rarity form for a target locality
+#' @importFrom stats complete.cases
+#' @importFrom graphics pie 
 #' @export
 rarePlot <- function(table, rarity, locality) 
 {

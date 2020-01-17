@@ -7,6 +7,12 @@
 rareForms(data, percentage = 0.1, min_abund = 2, habitats = 1)
 }
 \arguments{
+\item{percentage}{2B documented.}
+
+\item{min_abund}{2B documented.}
+
+\item{habitats}{2B documented.}
+
 \item{use}{output provide by function rabiData}
 }
 \value{

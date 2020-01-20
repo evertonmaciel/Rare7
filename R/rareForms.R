@@ -2,10 +2,13 @@
 #'
 #' classifies the seven forms of rarity according to geographic range, abundance and habitat
 #'
-#' @param  use output provide by function rabiData
+#' @param data 2B documented => is this correct? output provide by function rabiData
+#' @param percentage 2B documented.
+#' @param min_abund 2B documented.
+#' @param habitats 2B documented.
 #' @return The output is another table organised to be used in the function rarityForms
 #' @export
-rareForms <- function(data,percentage=0.1,min_abund=2,habitats=1){
+rareForms <- function(data, percentage=0.1, min_abund=2 ,habitats=1){
   `%ni%` <- Negate(`%in%`) #create an operator for "not in"
   data2 <- data[complete.cases(data),]
   perc <- data2[,"Detection_area"]/data2[,"Sample_area"]
@@ -15,7 +18,7 @@ rareForms <- function(data,percentage=0.1,min_abund=2,habitats=1){
   tab2 <- as.data.frame(cbind(Species=as.character(data2$Species),range,abunda,habitat))
   form <- character()
   i=1
-  for(i in 1:nrow(tab2))
+  for(i in seq_len(nrow(tab2)))
   {
     if(tab2$range[i]==0&tab2$abunda[i]==0&tab2$habitat[i]==0){form[i]="common"}
     if(tab2$range[i]==0&tab2$abunda[i]==1&tab2$habitat[i]==0){form[i]="form1"}
@@ -36,6 +39,5 @@ rareForms <- function(data,percentage=0.1,min_abund=2,habitats=1){
   result_na$Form[c] <- "No abundance information"
   result_na$Form[d] <- "No habitats information"
   result <- rbind(result0,result_na)
-  result <- result[order(as.character(result$Species)),]
-  return(result)
+  result[order(as.character(result$Species)),]
 }

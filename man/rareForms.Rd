@@ -7,16 +7,16 @@
 rareForms(data, percentage = 0.1, min_abund = 2, habitats = 1)
 }
 \arguments{
-\item{data}{2B documented => is this correct? output provide by function rabiData}
+\item{data}{output provide by function rabiData}
 
-\item{percentage}{2B documented.}
+\item{percentage}{the percentage of localities below which the species will fulfil the first parametre to be considered rare. Default is 10%, but the user can change it.}
 
-\item{min_abund}{2B documented.}
+\item{min_abund}{the abundace  above which the species will fulfil the second parametre to be considered rare. Default is 2, but the user can change it.}
 
-\item{habitats}{2B documented.}
+\item{habitats}{the number of habitats above which the species will fulfil the third parametre to be considered rare. Default is 1, but the user can change it.}
 }
 \value{
-The output is another table organised to be used in the function rarityForms
+The output is the result table showing the name of each species in the first column and the form of rarity (or common) in the second column.
 }
 \description{
 classifies the seven forms of rarity according to geographic range, abundance and habitat

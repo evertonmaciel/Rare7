@@ -2,7 +2,7 @@ library(testthat)
 library(checkmate)
 context("rareForms")
 
-input_data <- read.csv(system.file("inst/test_datasets/Table_for_rareForms.csv",package="Rare7",mustWork = T))
+input_data <- read.csv(system.file("inst/test_datasets/Table_for_rareForms.csv",package="Rare7"))
 
 test_that("Expected data structure",{
   expect_equal(class(input_data),"data.frame")

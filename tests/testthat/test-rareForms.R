@@ -13,5 +13,3 @@ test_that("Expected data structure",{
   expect_true("Habitats" %in% names(input_data))
 })
 
-
-?test_that

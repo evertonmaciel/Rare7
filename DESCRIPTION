@@ -15,3 +15,5 @@ Import:
  stats
 RoxygenNote: 7.0.2
 Encoding: UTF-8
+Suggests: 
+    testthat (>= 2.1.0)

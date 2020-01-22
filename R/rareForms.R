@@ -2,11 +2,11 @@
 #'
 #' classifies the seven forms of rarity according to geographic range, abundance and habitat
 #'
-#' @param data 2B documented => is this correct? output provide by function rabiData
-#' @param percentage 2B documented.
-#' @param min_abund 2B documented.
-#' @param habitats 2B documented.
-#' @return The output is another table organised to be used in the function rarityForms
+#' @param data output provide by function rabiData
+#' @param percentage the percentage of localities below which the species will fulfil the first parametre to be considered rare. Default is 10%, but the user can change it.
+#' @param min_abund the abundace  above which the species will fulfil the second parametre to be considered rare. Default is 2, but the user can change it.
+#' @param habitats the number of habitats above which the species will fulfil the third parametre to be considered rare. Default is 1, but the user can change it.
+#' @return The output is the result table showing the name of each species in the first column and the form of rarity (or common) in the second column.
 #' @export
 rareForms <- function(data, percentage=0.1, min_abund=2 ,habitats=1){
   `%ni%` <- Negate(`%in%`) #create an operator for "not in"

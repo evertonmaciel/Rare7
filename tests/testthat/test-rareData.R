@@ -2,7 +2,7 @@ library(testthat)
 library(checkmate)
 context("rareData")
 
-input_data <- read.csv(system.file("inst/test_datasets/Test_data.csv",package="Rare7"))
+input_data <- readRDS(system.file("inst/test_datasets/Test_data",package="Rare7"))
 
 test_that("Expected data structure",{
   expect_equal(class(input_data),"data.frame")

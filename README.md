@@ -52,7 +52,7 @@ The data input to Rare is a data frame that contains the following structure.
 
 # How to cite
 
-If you publish something based on results from Rare7 (R package), please make reference to Arlé and Maciel (2019) and Rabinowitz (1981) given in the following list.
+If you publish something based on results from Rare7 (R package), please make reference to Maciel, E. A., & Arlé, E. (2020). Rare7: An R package to assess the forms of rarity in a community. Ecological Indicators, 115, 106419.
 
 
 # The main reference

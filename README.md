@@ -11,7 +11,7 @@ PhD student, Macroecology and Society, German Centre for Integrative Biodiversit
 Everton Alves Maciel
 PhD student, University of Campinas - UNICAMP, Brazil. and
 PhD-SWE student, Helmholtz Centre Environmental Research - UFZ, Germany.
-contact: <everttmaciel@gmail.com>
+contact: <everttonmaciel@gmail.com>
 
 # Install Rare7 from github
 
